@@ -5,8 +5,8 @@ function App() {
 
   return (
     <>
-      <Header/>
-      <Timer/>
+      <Header />
+      <Timer />
     </>
   )
 }
