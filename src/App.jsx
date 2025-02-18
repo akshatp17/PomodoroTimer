@@ -5,8 +5,12 @@ function App() {
 
   return (
     <>
-      <Header />
-      <Timer />
+      <div className="root flex flex-col h-screen gap-20">
+        <Header />
+        <div className="flex grow">
+          <Timer />
+        </div>
+      </div>
     </>
   )
 }
